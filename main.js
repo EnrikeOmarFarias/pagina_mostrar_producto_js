@@ -1,8 +1,6 @@
-const compartir = document.getElementById("share_btn");
-const iconos = document.getElementById("icons");
+const compartir = document.querySelector(".icons");
+const button = document.querySelector(".share");
 
 compartir.addEventListener("click", () => {
-  iconos.classList.add("icons__compartir-activo");
+  compartir.classList.toggle("icons__visible");
 });
-
-// document.getElementById("icons").classList.add("icons__compartir-activo"); //

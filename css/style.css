@@ -115,16 +115,14 @@ html {
   position: relative;
 }
 
-.icons__compartir-activo {
+.icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
 
-.icons {
   background-color: var(--VeryDarkGrayishBlue);
   width: 20rem;
-  height: 6rem;
+  height: 5rem;
   padding: 0.5rem 1rem;
   margin-bottom: 1rem;
   font-size: var(--md);
@@ -132,6 +130,9 @@ html {
   position: absolute;
   bottom: 10px;
   z-index: 100;
+}
+
+.icons__visible {
   display: none;
 }
 
